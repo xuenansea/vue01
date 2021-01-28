@@ -75,3 +75,11 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
     3、其他依赖添加
         1）echarts ：cnpm install echarts --save
+
+#### 使用git上传到github
+    1、git.exe安装文件路径：D:\Git
+    2、计算机cmd进入欲要存放密钥的文件夹，执行 D:\Git\bin\bash.exe
+    3、$ ssh-keygen -t rsa -C "登录邮箱"
+       $ git config --global user.name "用户名"
+       $ git config --global user.email "登录邮箱"
+    4、将“xx.pub”放入 github中的settings->SSH and GPG keys->SSH keys->New ssh key

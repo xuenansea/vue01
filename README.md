@@ -82,4 +82,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
     3、$ ssh-keygen -t rsa -C "登录邮箱"
        $ git config --global user.name "用户名"
        $ git config --global user.email "登录邮箱"
-    4、将“xx.pub”放入 github中的settings->SSH and GPG keys->SSH keys->New ssh key
+    4、将“xx.pub”内的内容放入 github中的settings->SSH and GPG keys->SSH keys->New ssh key

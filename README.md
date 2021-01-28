@@ -41,6 +41,10 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
         npm config set cache "D:\Program Files\nodejs\node_cache"
 
     3：将 node_global 文件加加到计算机的“path”环境变量中，然后安装其他插件，如下：
+        环境变量：（重要）
+        1）添加：在系统变量新建 NODE_PATH，输入路径为：D:\Program Files\nodejs\node_global\node_modules
+        2）在 path 中添加 D:\Program Files\nodejs\node_global
+        其他插件
         1）    npm install express -g
         2）    进入node  ,执行：require('express')
         3)     -- 第三步的环境变量直接影响 4 的第二步。
